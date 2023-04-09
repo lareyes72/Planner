@@ -13,6 +13,7 @@
     --light-green: lightgreen;
     --blue: blue;
     --orange: orange;
+    --yellow: yellow;
     --menuButtonColor: orange;
     --contBorderColor: black;
     --junior-avatar-color: aqua;
@@ -77,6 +78,7 @@ body {
 /* Main Header */
 
 .main-header{
+    width: 1400px;
     background-color: var(--light);
     align-items: center;
 }
@@ -140,18 +142,22 @@ body {
         }
             .list-item{
                 /* flex: 1; */
-                color: var(--orange);
-                background-color: var(--dark );
+                color: var(--black);
+                background-color: var(--yellow);
                 align-items: center;
                 padding: 3px 5px 3px 5px;
-                border-radius: 25px;
-		    margin: 0px 2px 0px 2px;
+                /* border-radius: 25px; */
+		        margin: 0px 2px 0px 2px;
+                border-style: solid;
+                border-color: var(--black);
+                border-width: 1px;
             }
 
                 .list-item-button{
-                    width: 8px;
-                    height: 8px;
-                    background-image: var(--imgClose);
+                    width: 5px;
+                    height: 5px;
+                    /* background-image: var(--imgClose); */
+                    background-color: var(--light);
                     border-style: solid;
                     border-width: 1px;
                     border-color: var(--black);
