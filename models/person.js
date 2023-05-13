@@ -30,7 +30,7 @@ export class Assignment {
     }
 }
 
-export class Person {
+export class Member {
 
     constructor(avatar, name, nickName, profile, assignment, workload, availability){
         let enable = false;
